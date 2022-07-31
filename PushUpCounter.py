@@ -10,7 +10,7 @@ import pprint
 # Creating instance of mongoclient
 client = MongoClient()
 # Creating database
-db = client["PushUp"]
+db = client["Exercise"]
 employee = db["a"]
 excercise_2 = db["xyz"]
 c1 = db["col_1"]
